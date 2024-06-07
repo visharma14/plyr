@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[E10] Wind Breaker [2160p][Sub]@ACE ongoing.mkv</title>
+    <link
+      rel="icon"
+      href="https://i.ibb.co/Hh4kF2b/icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/Hh4kF2b/icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/proavipatil/data@main/fs/src/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/proavipatil/data@main/fs/src/plyr.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nleft">
+        <h3 id="heading" style="z-index: 100" class="magnet title">
+          FILE STREAM
+        </h3>
+      </div>
+      <div class="nryt">
+        <a
+          class="home-btn magnet"
+          href="#main"
+          onclick="toggleWidthnav(this)"
+        ></a>
+
+        <a
+          href="#abtus"
+          class="about-btn magnet"
+          onclick="toggleWidthnav(this)"
+        ></a>
+      </div>
+    </nav>
+    <center>
+      <div class="about-nav">
+        <a href="#abtus" class="wlcm magnet" onclick="toggleWidth(this)"></a>
+        <a
+          href="#channels"
+          class="abt-chnl magnet"
+          onclick="toggleWidth(this)"
+        ></a>
+        <a
+          href="#contact"
+          class="magnet contact-btn"
+          onclick="toggleWidth(this)"
+        ></a>
+      </div>
+    </center>
+
+    <div class="outer">
+      <div class="inner">
+        <div class="main" id="main">
+          <video id="player" class="player" playsinline controls width="100%">
+            <source
+              type="application/x-mpegURL"
+              src="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+            />
+          </video>
+          <div class="player"></div>
+          <div class="file-name">
+            <h4 style="display: inline">File Name:</h4>
+            <p style="display: inline" id="myDiv">
+              [E10] Wind Breaker [2160p][Sub]@ACE ongoing.mkv
+            </p>
+            <br />
+            <h4 style="display: inline">File Size:</h4>
+            <p style="display: inline">1.16 GiB</p>
+          </div>
+          <div class="downloadBtn">
+            <button class="magnet" onclick="streamDownload()">
+              <img
+                style="height: 30px"
+                src="https://i.ibb.co/RjzYttX/dl.png"
+                alt=""
+              />download video
+            </button>
+            <button class="magnet" onclick="copyStreamLink()">
+              <img
+                src="https://i.ibb.co/CM4Y586/link.png"
+                alt="Copy Link"
+              />copy link
+            </button>
+            <button class="magnet" onclick="vlc_player()">
+              <img src="https://i.ibb.co/px6fQs1/vlc.png" alt="" />watch in VLC
+              PLAYER
+            </button>
+            <button class="magnet" onclick="mx_player()">
+              <img src="https://i.ibb.co/41WvtQ3/mx.png" alt="" />watch in MX
+              PLAYER
+            </button>
+            <button class="magnet" onclick="n_player()">
+              <img src="https://i.ibb.co/Hd2dS4t/nPlayer.png" alt="" />watch in
+              nPlayer
+            </button>
+          </div>
+        </div>
+        <div class="abt">
+          <div class="about">
+            <div class="about-dets">
+              <div class="abt-sec" id="abtus" style="padding: 160px 30px">
+                <h1 style="text-align: center">
+                  WELCOME TO OUR <span>FILE STREAM</span> BOT
+                </h1>
+                <p
+                  style="
+                    text-align: center;
+                    line-height: 2;
+                    word-spacing: 2px;
+                    letter-spacing: 0.8px;
+                  "
+                >
+                  This is a Telegram Bot to Stream <span>Anime</span>,
+                  <span>Movies</span> and <span>Series</span> directly on
+                  Telegram. You can also <span>download</span> them if you want.
+                  This bot is developed by
+                  <a href="https://github.com/SilentDemonSD"
+                    ><span style="font-weight: 700">꧁❏รเlєภt ๔є๓๏ภ❏꧂</span></a
+                  >
+                  <br /><br />If you like this bot, then don't forget to share
+                  it with your friends and family.
+                </p>
+              </div>
+
+              <div class="abt-sec" id="channels">
+                <h1>JOIN OUR <span>TELEGRAM</span> CHANNELS</h1>
+                <div class="links chnl-link">
+                  <a class="magnet" href="https://t.me/Rokubotz">
+                    <button>BOTS CHANNEL</button>
+                  </a>
+                  <a class="magnet" href="https://t.me/FZAnime">
+                    <button>ONGOING ANIME 2024</button>
+                  </a>
+                  <a class="magnet" href="https://t.me/Low_Mb_Zone">
+                    <button>ANIME IN LOW SIZE</button>
+                  </a>
+                  <a class="magnet" href="https://t.me/FuZionX">
+                    <button>MOVIES & SERIES</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="abt-sec" id="contact">
+                <p style="text-align: center">
+                  Report Bugs and Contact us on Telegram Below
+                </p>
+                <div class="links contact">
+                  <a href="https://t.me/MysterySD">
+                    <button>CONTACT</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <center></center>
+
+        <center>
+          <div class="copyright">
+            <h5 class="text-center">
+              Copyright © 2024
+              <a href="https://t.me/ace_emperor"
+                ><span style="font-weight: 700">Ace Animes</span></a
+              >. All Rights Reserved.
+            </h5>
+          </div>
+        </center>
+      </footer>
+    </div>
+    <center>
+      <script
+        type="text/javascript"
+        src="//widget.supercounters.com/ssl/online_i.js"
+      ></script>
+      <script type="text/javascript">
+        sc_online_i(1687744, "ffffff", "e61c1c");
+      </script>
+      <br /><noscript
+        ><a href="https://www.supercounters.com/"
+          >free online counter</a
+        ></noscript
+      >
+    </center>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"
+  ></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const uncopyableElement = document.querySelector(".uncopyable");
+
+      uncopyableElement.addEventListener("selectstart", function (event) {
+        event.preventDefault();
+      });
+    });
+  </script>
+  <!-- <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script> -->
+  <!-- <script src="https://proavipatil.github.io/data/fs/src/script.js"></script> -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const video = document.querySelector("video");
+      const source = video.getElementsByTagName("source")[0].src;
+
+      // For more options see: https://github.com/sampotts/plyr/#options
+      // captions.update is required for captions to work with hls.js
+      const defaultOptions = {};
+
+      if (Hls.isSupported()) {
+        // For more Hls.js options, see https://github.com/dailymotion/hls.js
+        const hls = new Hls();
+        hls.loadSource(source);
+
+        // From the m3u8 playlist, hls parses the manifest and returns
+        // all available video qualities. This is important, in this approach,
+        // we will have one source on the Plyr player.
+        hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+          // Transform available levels into an array of integers (height values).
+          const availableQualities = hls.levels.map((l) => l.height);
+
+          // Add new qualities to option
+          defaultOptions.quality = {
+            default: availableQualities[0],
+            options: availableQualities,
+            // this ensures Plyr to use Hls to update quality level
+            forced: true,
+            onChange: (e) => updateQuality(e),
+          };
+
+          // Initialize here
+          const player = new Plyr(video, defaultOptions);
+        });
+        hls.attachMedia(video);
+        window.hls = hls;
+      } else {
+        // default options with no quality update in case Hls is not supported
+        const player = new Plyr(video, defaultOptions);
+      }
+
+      function updateQuality(newQuality) {
+        window.hls.levels.forEach((level, levelIndex) => {
+          if (level.height === newQuality) {
+            console.log("Found quality match with " + newQuality);
+            window.hls.currentLevel = levelIndex;
+          }
+        });
+      }
+    });
+  </script>
+</html>
